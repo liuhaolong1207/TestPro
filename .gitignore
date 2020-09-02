@@ -1,0 +1,47 @@
+# Built application
+*.apk
+*.ap_
+
+# ART/Dalvik VM
+*.dex
+
+# Java class
+*.class
+
+# Generated
+bin/
+gen/
+out/
+
+# Gradle files
+.gradle/
+
+build/
+
+
+local.properties
+
+
+proguard/
+
+*.log
+
+# Android Studio
+.navigation/
+
+# Android Studio captures folder
+captures/
+
+# IntelliJ
+*.iml
+.idea/
+
+
+#*.jks
+
+
+.externalNativeBuild
+
+freeline.py
+freeline/
+freeline_project_description.json
