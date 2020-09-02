@@ -3,7 +3,7 @@ package com.example.myapplication
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 
-class MainActivity : AppCompatActivity() {
+class MainActivity1 : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -12,5 +12,9 @@ class MainActivity : AppCompatActivity() {
 
     override fun recreate() {
         super.recreate()
+    }
+
+    override fun onDetachedFromWindow() {
+        super.onDetachedFromWindow()
     }
 }
